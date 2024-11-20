@@ -6,6 +6,9 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
+    "@elysiajs/html": "^1.1.1",
+    "@elysiajs/swagger": "^1.1.6",
+    "@libsql/client": "^0.14.0",
     "elysia": "latest"
   },
   "devDependencies": {
