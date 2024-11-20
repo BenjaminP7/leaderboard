@@ -8,6 +8,7 @@ import { main, leaderboard } from './layout/main';
 const db = createClient({
     url: "file:local.db",
     syncUrl: "leaderboard-benjaminp7--sn9knd.aws-eu-west-3.turso.io",
+    // I know, but still, it's a dummy token, don't worry :)
     authToken: "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzIxMzQ0MDAsImlhdCI6MTczMjEzMDgwMCwiaWQiOiI1YmUxYzIxMy01MTY4LTQ4ZTYtYjU0YS1mMTA1MjBjMmVlM2QifQ.Ri5C-yI9Nd6JnQPsK3zUjD2OOharKmTsfI7fzFFNVoCuxN6H2CfmyvcyO4ugxYUt6E0AsQL90QIr97YnsHAWBQ",
 });
 
